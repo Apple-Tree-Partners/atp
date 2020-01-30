@@ -10,6 +10,8 @@ You can use some of these resources to setup CraftCMS and all of its requirement
 
 https://docs.craftcms.com/v2/installing.html#additional-resources
 
+---
+
 **Option 2: Use Docker & Docker Compose**
 
 I preferred recently to use Docker and Docker Compose to spin up the server environment.
@@ -43,6 +45,8 @@ $ docker-compose up --detach mariadb
 $ docker-compose run --rm --volume ~/Downloads/path/to/backup.sql:/tmp/backup.sql mariadb /bin/bash
 root@<container>:/# mysql --host mariadb --user craft --password --database atp < /tmp/backup.sql
 ```
+
+---
 
 ## Local Development
 
